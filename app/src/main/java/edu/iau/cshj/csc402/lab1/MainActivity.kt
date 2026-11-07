@@ -32,10 +32,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
+    Column(modifier = modifier) {
+        Text(text = stringResource(R.string.welcome_message))
+        Text(text = stringResource(R.string.student_name))
+    }
 }
 
 @Preview(showBackground = true)
