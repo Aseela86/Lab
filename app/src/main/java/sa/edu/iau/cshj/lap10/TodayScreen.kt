@@ -40,7 +40,7 @@ fun TodayScreen(
             TopAppBar(
                 title = { Text("Study Planner - Lab 12") },
                 actions = {
-                    IconButton(onClick = onRemindMe) {
+                    git push -u origin main                    IconButton(onClick = onRemindMe) {
                         Icon(
                             imageVector = Icons.Default.Notifications,
                             contentDescription = "Remind Me"
